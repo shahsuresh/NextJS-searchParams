@@ -3,8 +3,124 @@
   "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
   "editor.guides.bracketPairs": true,
   "editor.fontSize": 15,
-  "editor.fontFamily": "Consolas, 'Courier New', monospace",
+  "editor.fontFamily": "Source Code Pro,Consolas, 'Courier New', monospace",
   "notebook.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
-  "editor.autoClosingBrackets": "always"
+  "editor.autoClosingBrackets": "always",
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "-",
+      "color": "#FE5F55",
+      "strikethrough": false,
+      "underline": true,
+      "backgroundColor": "transparent",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": true,
+      "backgroundColor": "transparent",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": true,
+      "italic": true
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": " #FFF685",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": true,
+      "italic": true
+    },
+    {
+      "tag": "TODO:",
+      "color": "#EA580C",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "FIXME:",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "BUG:",
+      "color": "#9333EA",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "HACK:",
+      "color": "#C026D3",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "NOTE:",
+      "color": "#2563EB",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "INFO:",
+      "color": "#0EA5E9",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "IDEA:",
+      "color": "#FFF",
+      "strikethrough": false,
+      "backgroundColor": "#EAB308"
+    },
+    {
+      "tag": "#",
+      "color": "#fa8334",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": false,
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "+",
+      "color": "#fe938c",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": false,
+      "bold": true,
+      "italic": false
+    }
+  ]
 }
